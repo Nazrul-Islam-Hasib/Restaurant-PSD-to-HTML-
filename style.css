@@ -1,0 +1,346 @@
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    PRODUCT NAME: RESTAURENTS
+    AUTHOR: MD Nazrul Islam
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   CSS INDEX
+
+
+   01 FONTS
+   02 TYPOGRAPHY
+   03 HEADER AREA
+   04 ABOUT AREA
+   05 INGREDIENTS AREA
+   06 FOOD MENU AREA
+   07 REVIEWS AREA
+   08 RESERVATIONS AREA
+   09 FOOTER AREA
+
+``````````````````````````````````````````````````````````````````````````````````````````
+*/
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   01 FONTS
+``````````````````````````````````````````````````````````````````````````````````````````  
+*/
+@font-face{
+   font-family: 'GentiumBookBasicBold';
+   src: url(fonts/GenBkBasB.ttf);
+}
+@font-face{
+   font-family: 'YesevaOne';
+   src: url(fonts/YesevaOne-Regular.ttf);
+}
+@font-face{
+   font-family: 'Lato';
+   src: url(fonts/Lato-Regular.ttf);
+}
+@font-face{
+   font-family: 'OpenSansBold';
+   src: url(fonts/OpenSans-Bold.ttf);
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   02 TYPOGRAPHY
+`````````````````````````````````````````````````````````````````````````````````````````` 
+*/
+*{
+   padding: 0;
+   margin: 0;
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   03 HEADER AREA
+``````````````````````````````````````````````````````````````````````````````````````````	
+*/
+.header-area{
+  background: url(images/restaurant.jpg);
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.menu-area{
+  font-family: 'GentiumBookBasicBold';
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4));
+}
+.menu-area ul{
+  display: flex;
+}
+.menu-area ul li{
+  list-style: none;
+  padding: 20px 20px;
+}
+.menu-area ul li a{
+   color: #fff;
+   text-transform: uppercase;
+   text-decoration: none;
+}
+.menu-area ul li a:hover{
+   color: #2980b9;
+}
+.menu-area i{
+   color: yellow;
+   font-size: 20px;
+   cursor: pointer;
+}
+.header-area-bottom{
+   padding-top: 100px;
+   
+}
+.header-area-bottom .text{
+   width: 100%;
+   margin: 0 auto;
+}
+.header-area-bottom .text h2{
+   font-family: 'YesevaOne';
+   color: #fff;
+   font-size: 70px;
+   text-align: center;
+}
+.header-area-bottom .image{
+   width: 100%;
+   margin: 0 auto;
+   padding-bottom: 50px;
+}
+.header-area-bottom .btn{
+   width: 100%;
+   margin: 0 auto;
+}
+.header-area-bottom button{
+   text-transform: uppercase;
+   padding: 10px 15px;
+   color: #fff;
+   cursor: pointer;
+}
+.header-area-bottom .bt1{
+  background-color: #2F312D;
+  border: none;
+}
+.header-area-bottom .bt2{
+   margin-left: 25px;
+   background-color: rgba(255, 255, 255, 0.45);
+   border: none;
+}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   04 ABOUT AREA
+``````````````````````````````````````````````````````````````````````````````````````````	
+*/
+.about-area{
+   padding: 50px 0;
+   overflow: hidden;
+}
+.about-area-left{
+   text-align: center;
+}
+.about-area-left h2{
+   font-family: 'YesevaOne';
+   color: #CC9900;
+}
+.about-area-left p{
+   padding: 50px 0;
+   text-align: justify;
+   font-family: 'Lato';
+}
+.about-area-right img{
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   05 INGREDIENTS AREA
+``````````````````````````````````````````````````````````````````````````````````````````	
+*/
+.ingredients-area{
+   background: url(images/ingridients.jpg);
+   width: 100%;
+   height: 600px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow: hidden;
+}
+.ingredients-area-right{
+   width: 400px;
+   height: 400px;
+   background-color: rgba(0, 0, 0, 0.5);
+   margin-top: 100px;
+   color: #fff;
+}
+.ingredients-area-right h2{
+   font-family: 'YesevaOne';
+   text-align: center;
+   font-size: 20px;
+   padding-top: 10px;
+}
+.ingredients-area-right p{
+   font-family: 'Lato';
+   text-align: center;
+   font-size: 15px;
+   padding: 10px 0;
+}
+.ingredients-area-right .ing-border{
+   padding-left: 70px;
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   06 FOOD MENU AREA
+``````````````````````````````````````````````````````````````````````````````````````````	
+*/
+.food-menu-area{
+   width: 100%;
+   height: 1000px;
+   background-color: #fff;
+   overflow: hidden;
+}
+.food-menu-area-top{
+  padding: 50px 0;
+}
+.food-menu-area-text{
+  text-align: center;
+}
+.food-menu-area-text h2{
+  font-family: 'YesevaOne';
+  color: #CC9900;
+}
+.food-menu-area-text img{
+  
+}
+.food-menu-area-text h6{
+  font-family: 'YesevaOne';
+  color: #CC9900;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.food-menu-area-text h6 span{
+  padding-left: 60px;
+}
+.food-menu-area-text p{
+  font-family: 'Lato';
+  display: inline-block;
+  border-top: 1px solid #CC9900;
+}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   07 REVIEWS AREA
+``````````````````````````````````````````````````````````````````````````````````````````	
+*/
+.review-area{
+   background: url(images/review.jpg);
+   width: 100%;
+   height: 600px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.review-area .review-content{
+   width: 600px;
+   height: 400px;
+   background-color: rgba(0, 0, 0, 0.7);
+   text-align: center;
+   color: #fff;
+}
+.review-area .review-content h2{
+   font-family: 'YesevaOne';
+   padding-top: 50px;
+}
+.review-area .review-content p{
+   font-family: 'Lato';
+   padding-top: 20px;
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   08 RESERVATIONS AREA
+``````````````````````````````````````````````````````````````````````````````````````````	
+*/
+.reservation-area{
+   width: 100%;
+   height: 650px;
+   padding: 50px 30px;
+   overflow: hidden;
+}
+.reservation-area .reservation-area-left img{
+   height: 500px;
+   width: 90%;
+}
+.reservation-area .reservation-area-right{
+   text-align: center;
+}
+.reservation-area .reservation-area-right h2{
+   font-family: 'YesevaOne';
+   color: #CC9900;
+}
+.reservation-area .reservation-area-right p{
+   font-family: 'Lato';
+   padding: 20px 0;
+}
+.reservation-area-right label{
+   color: #CC9900;
+   float: left;
+   font-family: 'OpenSansBold';
+}
+.reservation-area-right .date{
+   padding: 10px 0;
+}
+.reservation-area-right .book-btn{
+   padding: 30px 0;
+}
+.reservation-area-right button{
+   padding: 8px 30px;
+   background-color: #CC9900;
+   color: #fff;
+   border: none;
+}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   09 FOOTER AREA
+``````````````````````````````````````````````````````````````````````````````````````````	
+*/
+.footer-area{
+   width: 100%;
+   height: 400px;
+   background-color: #191919;
+   text-align: center;
+   color: #fff;
+   padding: 50px 0;
+   overflow: hidden;
+}
+.footer-area h2{
+   font-family: 'YesevaOne';
+}
+.footer-area p{
+   font-family: 'OpenSansBold';
+   padding: 20px 0;
+}
+.footer-area i{
+   font-size: 20px;
+   padding-left: 5px;
+}

@@ -1,0 +1,47 @@
+@media all and (max-width: 768px){
+	.header-area{
+		height: 1500px;
+	}
+	.menu-area ul{
+      display: block;
+    }
+    .header-area-bottom button{
+      padding: 10px 15px;
+      display: block;
+      margin: 0 auto;
+    }
+    .header-area-bottom .bt2{
+       margin: 0 auto;
+    }
+    .ingredients-area{
+    	height: 800px;
+    }
+    .ingredients-area-right{
+       height: 800px;
+    }
+    .ingredients-area-right p{
+       text-align: center;
+       padding: 10px 0;
+    }
+    .ingredients-area-right .ing-border{
+       padding: 0;
+    }
+    .ingredients-area-right img{
+    	padding: 10px 50px;
+    }
+    .food-menu-area{
+    	height: 2100px;
+    }
+    .food-menu-area-text{
+    	padding: 30px 0;
+    }
+    .reservation-area{
+    	height: 1900px;
+    }
+    .reservation-area .reservation-area-left img{
+    	padding: 10px 0;
+    }
+    .footer-area{
+    	height: 900px;
+    }
+}
